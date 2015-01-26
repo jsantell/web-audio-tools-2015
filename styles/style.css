@@ -1,0 +1,42 @@
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.remark-container {
+  background-color: #14171A;
+}
+
+.remark-slide-content {
+  padding: 100px 50px;
+  background-color: #252C33;
+  color: #fff;
+}
+
+h1 {
+  position: absolute;
+  margin: -100px 0 0 -50px;
+  width: 100%;
+  padding: 10px 0 10px 20px;
+  color: white;
+  background-color: #1D4F73;
+  box-shadow: 0px 2px 0px #D7F1FF inset, 0px 8px 3px -5px #2B82BF inset, 0px -2px 0px rgba(0, 0, 0, 0.2) inset
+}
+
+h1::before {
+  content: url('../images/tool-webaudio.svg');
+  padding-top: 10px;
+  margin-right: 5px;
+  float: left;
+}
+
+/* Two-column layout */
+.left-column {
+  width: 30%;
+  height: 92%;
+  float: left;
+ }
+ .right-column {
+   width: 60%;
+   float: right;
+ }

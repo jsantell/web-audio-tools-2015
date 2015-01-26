@@ -1,0 +1,9 @@
+<html><head></head><body>
+<pre style="font-size:30px; margin: auto auto;">
+  gain.gain.setValueAtTime(0.000001, ctx.currentTime);
+  gain.gain.exponentialRampToValueAtTime(1, ctx.currentTime + 0.5);
+  gain.gain.setValueAtTime(1, ctx.currentTime + 1);
+  gain.gain.setTargetAtTime(0, ctx.currentTime + 1.5, 0.3);
+  gain.gain.setValueAtTime(0.00001, ctx.currentTime + 2.5);
+</pre>
+<script src="automation.js"></script></html>
