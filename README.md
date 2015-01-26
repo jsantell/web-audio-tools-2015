@@ -2,6 +2,8 @@
 
 "Web Audio Tools" presentation for the [first international Web Audio Conference](http://wac.ircam.fr/) in Paris, France.
 
+[view slides](http://jsantell.github.io/web-audio-tools-2015)
+
 ## Abstract
 
 As technologies evolve and mature, proper tooling is needed to increase adoption and combat complexity, and web audio is no exception.
