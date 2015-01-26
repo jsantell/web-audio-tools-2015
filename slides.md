@@ -85,6 +85,10 @@ background-image: url(images/businessman.jpg)
 
 ---
 
+# Memory Usage???
+
+---
+
 class: dark
 background-image: url(images/future.jpg)
 # The Future
